@@ -5,8 +5,8 @@
 }
 
 body {
-  max-width: 900px;
-  margin: auto;
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 50%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,8 +38,10 @@ body {
   font-weight: bold;
   margin-top: 50px;
 }
+
 .hex {
   display: inline-block;
-  width: 50px;
-  font-weight: normal;
+  font-size: 1.2em;
+  padding: 10px;
+  font-weight: bold;
 }
