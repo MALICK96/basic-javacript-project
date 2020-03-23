@@ -15,8 +15,16 @@ function changeBg() {
       rand = Math.floor(Math.random() * hexcolor.length);
       hex += hexcolor[rand];
     }
-    body.style.backgroundColor = hex;
-    document.querySelector(".hex").textContent = hex;
+    changeColor(hex);
+    displayHexCode(hex);
     hex = "#";
+  }
+
+  function changeColor() {
+    body.style.backgroundColor = hex;
+  }
+
+  function displayHexCode() {
+    document.querySelector(".hex").textContent = hex;
   }
 }
