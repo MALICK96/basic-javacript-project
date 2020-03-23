@@ -22,8 +22,6 @@ function changeBody() {
     // change body background color using the rand num as key
     // to retrieve a color in the x array
     body.style.backgroundColor = x[rand_color];
-
-    //   body.style.backgroundColor = "#fff;";
   }
 }
 
