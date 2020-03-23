@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 150px auto;
-  background-color: #dedede;
+  /* background-color: #dedede; */
 }
 
 .btn {
@@ -37,6 +37,7 @@ body {
   font-size: 1.2em;
   font-weight: bold;
   margin-top: 50px;
+  text-transform: capitalize;
 }
 
 .hex {
@@ -44,4 +45,20 @@ body {
   font-size: 1.2em;
   padding: 10px;
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  border: 3px solid #1b1d1d;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  /* border: none; */
+  background-color: #754040;
 }
