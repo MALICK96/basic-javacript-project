@@ -7,7 +7,7 @@ body = document.getElementsByTagName("body")[0];
 // fuction changeBody when invoked
 function changeBody() {
   // declare an list of colors in x varibale
-  var x = ["yellow", "green", "blue", "viloet", "pink", "purple"];
+  var x = ["yellow", "green", "blue", "viloet", "pink", "purple", "#3b5998"];
 
   // setInterval will call back  changeColor function every 1s and
   // store the return value in animationId
